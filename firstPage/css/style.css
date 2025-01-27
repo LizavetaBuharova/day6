@@ -38,6 +38,11 @@ button:hover {
     padding: 7.47px 11.47px;
 }
 
+.login-link {
+    text-decoration: none !important;
+    color: rgb(71, 77, 102);
+}
+
 .text { 
     font-family: Nunito Sans;
     font-size: 7.65px;
