@@ -1,14 +1,19 @@
 body {
     margin: 0;
     padding: 0;
-    width: 688.06px;
-    height: 489.29px;
     font-family: Nunito Sans;
     color: rgb(71, 77, 102);
     letter-spacing: -0.4px;
+    padding-top: 25px;
+    }
+
+.full-body {
+    width: 688.06px;
+    height: 489.29px;
+    margin: 0 auto;
+    padding: 24.84px 64.51px;
     box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3),0px 1px 4.78px 0px rgba(0, 0, 0, 0.3);
     background: rgb(255, 255, 255);
-    margin: auto auto;
 }
 
 button {

@@ -32,31 +32,37 @@
                     <input type="text" autocomplete="name" placeholder="Full Name" class="main-inf"><br>
                     <input type="email" name="email" placeholder="Your Email Address" class="main-inf"><br>
                     <label for="phone" class="label-input">Phone Number</label><br>
-                    <select id="num">
+                    <select id="num" class="select-num">
                         <option>+7</option>
                     </select>
-                    <input type="text" name="phone"><br>
+                    <input type="text" name="phone" class="phone"><br>
                     <label for="password" class="label-input">Password</label><br>
-                    <input type="password" name="password"><br>
-                    <input type="checkbox" id="accept" name="accept" value="accept">
-                    <label for="accept">I hereby accept the T&C of Liquid</label><br>
-                    <button type="submit">Sign Up</button>
-                    <p>Or with</p>
+                    <input type="password" name="password" class="main-inf"><br>
+                    <div class="checkbox">
+                        <input type="checkbox" id="accept" class="input-accept" name="accept" value="accept">
+                        <label for="accept" class="label-accept">I hereby accept the <span>T&C</span> of Liquid</label><br>
+                    </div>
+                    <button type="submit" class="butt-signup">Sign Up</button>
+                    <div class="in-stripes"> 
+                        <div></div>
+                        <p>Or with</p>
+                        <div></div>
+                    </div>
                     <div class="two-sos">
-                        <button type="submit">
+                        <button type="submit" class="sos">
                             <a href="#">
                                 <img src="/img/Facebook.svg" width="9.56" height="9.56">
                                 <p class="login">Facebook</p>
                             </a>
                         </button>
-                        <button type="submit">
+                        <button type="submit" class="sos">
                             <a href="#">
                                 <img src="/img/Google.png" width="9.56" height="9.56">
                                 <p class="login">Google</p>
                             </a>
                         </button>
                     </div>
-                    <p>Already have an accountt? <a href="#">Log In</a></p>
+                    <p class="have-acc">Already have an accountt? <a href="#">Log In</a></p>
                 </div>
             </form>
         </div>
