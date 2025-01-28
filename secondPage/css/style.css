@@ -198,7 +198,7 @@ h2 {
 
 .checkbox {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items:center;
     margin-bottom: 12px;
 }
@@ -217,7 +217,7 @@ h2 {
     margin: 0;
     padding: 0;
     font-family: var(--text-inter);
-    font-size: 10px;
+    font-size: 8px;
     font-weight: 400;
     line-height: 8px;
     text-align: right;
@@ -314,7 +314,7 @@ h2 {
     padding: 0;
     font-family: var(--text-inter);
     font-size: 7.65px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 9px;
     letter-spacing: 0%;
     text-align: center;
